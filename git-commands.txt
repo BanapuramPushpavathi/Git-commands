@@ -1,0 +1,74 @@
+gti init
+git config --global user.name "github-username"
+git config --global user.email "github-email"
+git config --list 
+ls
+cat sample.text
+git status
+git add sample.text
+git add .
+git commit -m "commit-message"
+git log
+git remote add origin "github-URL"
+git remote -v
+git push -u origin master
+git push origin master
+git log --oneline
+delete
+pwd
+echo "welcome to DevOps"
+touch sample.text
+echo "hello" >> sample.txt
+
+UNDO Commands
+    git reset --hard
+    git checkout sample.txt
+    git revert
+
+Tags
+    git --soft
+    git --hard
+    git reset  --soft HEAD~1
+
+git branch
+git branch branch-name
+git switch dev
+echo "d1" >> sample.txt
+git push origin dev
+git revert container-id
+git checkout master
+git switch dev
+git merge dev
+git branch -d test
+git reset --hard HEAD~1
+git diff master dev
+git diff origin/master origin/dev
+git pull origin master
+
+Pull Local Repository
+
+    git cherry-pick -help
+    git cherry-pick commit-id
+    git cherry-pick --abort
+    git cherry-pick --skip
+    git cherry-pick --continue
+    git branch -D dev
+    git tag v1.5
+    git tag v1.1 commit-id
+
+To delete the Tags
+
+    git push origin master
+    git push origin v1.1
+    git push origin --all
+
+
+To push all the Tags
+
+    git push origin --Tags
+    git clone github-UR
+    ls -a
+    touch b.js a.js demo.txt
+
+vi .gitignore
+get fetch --all
